@@ -32,6 +32,7 @@
     {"id":{"name":"ctor_ApisAudioException","path":"scripts/ctor_ApisAudioException/ctor_ApisAudioException.yy",},},
     {"id":{"name":"ctor_ApisAudioNoAutoRegistration","path":"scripts/ctor_ApisAudioNoAutoRegistration/ctor_ApisAudioNoAutoRegistration.yy",},},
     {"id":{"name":"ctor_ApisAudioRegistry","path":"scripts/ctor_ApisAudioRegistry/ctor_ApisAudioRegistry.yy",},},
+    {"id":{"name":"ctor_ApisAudioSimpleAutoRegistration","path":"scripts/ctor_ApisAudioSimpleAutoRegistration/ctor_ApisAudioSimpleAutoRegistration.yy",},},
     {"id":{"name":"ctor_ApisAudioSimpleSoundDefinition","path":"scripts/ctor_ApisAudioSimpleSoundDefinition/ctor_ApisAudioSimpleSoundDefinition.yy",},},
     {"id":{"name":"ctor_ApisAudioSimpleSoundInstance","path":"scripts/ctor_ApisAudioSimpleSoundInstance/ctor_ApisAudioSimpleSoundInstance.yy",},},
     {"id":{"name":"ctor_ApisAudioSingleLoopChannel","path":"scripts/ctor_ApisAudioSingleLoopChannel/ctor_ApisAudioSingleLoopChannel.yy",},},
