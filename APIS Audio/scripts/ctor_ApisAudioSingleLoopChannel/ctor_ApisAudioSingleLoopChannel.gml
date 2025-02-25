@@ -71,3 +71,9 @@ function ApisAudioSingleLoopChannel(_identifier, _volume, _maxvolume = _volume) 
         }
     }
 }
+
+ApisAudioSingleLoopChannel.define = function(_identifier, _volume, _maxvolume = _volume) {
+    var _channel = new ApisAudioSingleLoopChannel(_identifier, _volume, _maxvolume);
+    apis_audio_register_channel(_channel, _identifier);
+    return _channel;
+}

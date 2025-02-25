@@ -11,3 +11,10 @@ function ApisAudioSimpleSoundDefinition(_asset, _identifier = audio_get_name(_as
         return new ApisAudioSimpleSoundInstance(self, _audio_instance);
     }
 }
+
+ApisAudioSimpleSoundDefinition.define = function(_asset, _identifier = audio_get_name(_asset)) {
+    var _sound = new ApisAudioSimpleSoundDefinition(_asset, _identifier);
+    apis_audio_register_sound_definition(_sound, _asset);
+    apis_audio_register_sound_definition(_sound, _identifier);
+    return _sound;
+}
