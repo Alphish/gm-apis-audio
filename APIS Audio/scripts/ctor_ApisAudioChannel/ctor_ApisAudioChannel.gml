@@ -68,6 +68,13 @@ function ApisAudioChannel(_identifier, _volume, _maxvolume = _volume) constructo
         throw ApisAudioException.method_not_implemented(self, nameof(apply_unmute));
     }
     
+    static toggle_mute = function() {
+        if (channel_is_muted)
+            unmute();
+        else
+            mute();
+    }
+    
     // ----------
     // Management
     // ----------
