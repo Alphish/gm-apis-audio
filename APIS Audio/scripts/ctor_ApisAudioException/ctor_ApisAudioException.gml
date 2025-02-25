@@ -80,3 +80,10 @@ ApisAudioException.unknown_sound_definition = function(_identifier) {
         $"Could not find a sound definition with '{_identifier}' identifier."
         );
 }
+
+ApisAudioException.sound_no_default_channel = function(_sound) {
+    return new ApisAudioException(
+        $"apis_audio_sound_no_default_channel",
+        $"The sound definition '{_sound.identifier}' doesn't have a default channel specified. Use apis_audio_play_on(...) to play it on the given channel."
+        );
+}

@@ -45,6 +45,15 @@ function apis_audio_get_sound_definition(_identifier) {
 // Playback
 // --------
 
+function apis_audio_play(_sound, _settings = undefined) {
+    var _resolved_sound = apis_audio_get_sound_definition(_sound);
+    var _channel = _resolved_sound.default_channel;
+    if (is_undefined(_channel))
+        throw ApisAudioException.sound_no_default_channel(_resolved_sound);
+    
+    _channel.play(_resolved_sound, _settings);
+}
+
 function apis_audio_play_on(_channel, _sound, _settings = undefined) {
     var _resolved_channel = apis_audio_get_channel(_channel);
     var _resolved_sound = apis_audio_get_sound_definition(_sound);
