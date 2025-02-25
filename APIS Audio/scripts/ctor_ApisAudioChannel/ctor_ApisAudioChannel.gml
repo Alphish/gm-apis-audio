@@ -1,4 +1,5 @@
-function ApisAudioChannel(_volume, _maxvolume = _volume) constructor {
+function ApisAudioChannel(_identifier, _volume, _maxvolume = _volume) constructor {
+    identifier = _identifier;
     channel_volume = _volume;
     channel_max_volume = _maxvolume;
     channel_is_muted = false;

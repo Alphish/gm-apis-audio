@@ -1,4 +1,4 @@
-function ApisAudioSingleLoopChannel(_volume, _maxvolume = _volume) : ApisAudioChannel(_volume, _maxvolume) constructor {
+function ApisAudioSingleLoopChannel(_identifier, _volume, _maxvolume = _volume) : ApisAudioChannel(_identifier, _volume, _maxvolume) constructor {
     current_track_definition = undefined;
     current_track_settings = undefined;
     current_track_instance = undefined;
