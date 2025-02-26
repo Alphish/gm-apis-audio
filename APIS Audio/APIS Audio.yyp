@@ -36,6 +36,7 @@
     {"id":{"name":"ctor_ApisAudioAssetAutoRegistration","path":"scripts/ctor_ApisAudioAssetAutoRegistration/ctor_ApisAudioAssetAutoRegistration.yy",},},
     {"id":{"name":"ctor_ApisAudioChannel","path":"scripts/ctor_ApisAudioChannel/ctor_ApisAudioChannel.yy",},},
     {"id":{"name":"ctor_ApisAudioException","path":"scripts/ctor_ApisAudioException/ctor_ApisAudioException.yy",},},
+    {"id":{"name":"ctor_ApisAudioMultiSoundChannel","path":"scripts/ctor_ApisAudioMultiSoundChannel/ctor_ApisAudioMultiSoundChannel.yy",},},
     {"id":{"name":"ctor_ApisAudioNoAutoRegistration","path":"scripts/ctor_ApisAudioNoAutoRegistration/ctor_ApisAudioNoAutoRegistration.yy",},},
     {"id":{"name":"ctor_ApisAudioRegistry","path":"scripts/ctor_ApisAudioRegistry/ctor_ApisAudioRegistry.yy",},},
     {"id":{"name":"ctor_ApisAudioSimpleAutoRegistration","path":"scripts/ctor_ApisAudioSimpleAutoRegistration/ctor_ApisAudioSimpleAutoRegistration.yy",},},
