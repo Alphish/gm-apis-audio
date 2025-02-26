@@ -1,0 +1,6 @@
+Example BGM tracks by Eric Matyas
+www.soundimage.org
+
+bgm_Test1 - Mind Bender (https://soundimage.org/puzzle-music/)
+bgm_Test2 - Cool Puzzler (https://soundimage.org/puzzle-music/)
+bgm_Test3 - Hypnotic Puzzle 3 (https://soundimage.org/puzzle-music/)

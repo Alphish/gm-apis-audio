@@ -1,0 +1,92 @@
+{
+  "$GMRoom":"v1",
+  "%Name":"rm_Demo",
+  "creationCodeFile":"",
+  "inheritCode":false,
+  "inheritCreationOrder":false,
+  "inheritLayers":false,
+  "instanceCreationOrder":[
+    {"name":"inst_6175B0EC","path":"rooms/rm_Demo/rm_Demo.yy",},
+    {"name":"inst_60D26583","path":"rooms/rm_Demo/rm_Demo.yy",},
+    {"name":"inst_32C4BF2D","path":"rooms/rm_Demo/rm_Demo.yy",},
+    {"name":"inst_1E32DA4C","path":"rooms/rm_Demo/rm_Demo.yy",},
+    {"name":"inst_ABD00F5","path":"rooms/rm_Demo/rm_Demo.yy",},
+    {"name":"inst_2509E721","path":"rooms/rm_Demo/rm_Demo.yy",},
+    {"name":"inst_200224EA","path":"rooms/rm_Demo/rm_Demo.yy",},
+    {"name":"inst_597F9CB4","path":"rooms/rm_Demo/rm_Demo.yy",},
+  ],
+  "isDnd":false,
+  "layers":[
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_6175B0EC","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6175B0EC","objectId":{"name":"sys_ApisAudio","path":"objects/sys_ApisAudio/sys_ApisAudio.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"sys_ApisAudio","path":"objects/sys_ApisAudio/sys_ApisAudio.yy",},"propertyId":{"name":"auto_register","path":"objects/sys_ApisAudio/sys_ApisAudio.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ApisAudioSimpleAutoRegistration",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v1","%Name":"inst_60D26583","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60D26583","objectId":{"name":"obj_PlayButton","path":"objects/obj_PlayButton/obj_PlayButton.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_PlayButton","path":"objects/obj_PlayButton/obj_PlayButton.yy",},"propertyId":{"name":"bgm","path":"objects/obj_PlayButton/obj_PlayButton.yy",},"resource":{"name":"bgm_Test1","path":"sounds/bgm_Test1/bgm_Test1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"bgm_Test1",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_DemoButton","path":"objects/par_DemoButton/par_DemoButton.yy",},"propertyId":{"name":"text","path":"objects/par_DemoButton/par_DemoButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Mind Bender",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":9.0,"scaleY":2.0,"x":64.0,"y":64.0,},
+        {"$GMRInstance":"v1","%Name":"inst_32C4BF2D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_32C4BF2D","objectId":{"name":"obj_PlayButton","path":"objects/obj_PlayButton/obj_PlayButton.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_PlayButton","path":"objects/obj_PlayButton/obj_PlayButton.yy",},"propertyId":{"name":"bgm","path":"objects/obj_PlayButton/obj_PlayButton.yy",},"resource":{"name":"bgm_Test2","path":"sounds/bgm_Test2/bgm_Test2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"bgm_Test2",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_DemoButton","path":"objects/par_DemoButton/par_DemoButton.yy",},"propertyId":{"name":"text","path":"objects/par_DemoButton/par_DemoButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Cool Puzzler",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":9.0,"scaleY":2.0,"x":64.0,"y":160.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1E32DA4C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1E32DA4C","objectId":{"name":"obj_PlayButton","path":"objects/obj_PlayButton/obj_PlayButton.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_PlayButton","path":"objects/obj_PlayButton/obj_PlayButton.yy",},"propertyId":{"name":"bgm","path":"objects/obj_PlayButton/obj_PlayButton.yy",},"resource":{"name":"bgm_Test3","path":"sounds/bgm_Test3/bgm_Test3.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"bgm_Test3",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_DemoButton","path":"objects/par_DemoButton/par_DemoButton.yy",},"propertyId":{"name":"text","path":"objects/par_DemoButton/par_DemoButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Hypnotic Puzzle 3",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":9.0,"scaleY":2.0,"x":64.0,"y":256.0,},
+        {"$GMRInstance":"v1","%Name":"inst_ABD00F5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_ABD00F5","objectId":{"name":"obj_PlayButton","path":"objects/obj_PlayButton/obj_PlayButton.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_DemoButton","path":"objects/par_DemoButton/par_DemoButton.yy",},"propertyId":{"name":"text","path":"objects/par_DemoButton/par_DemoButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"None",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":9.0,"scaleY":2.0,"x":64.0,"y":352.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2509E721","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2509E721","objectId":{"name":"obj_VolumeButton","path":"objects/obj_VolumeButton/obj_VolumeButton.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_DemoButton","path":"objects/par_DemoButton/par_DemoButton.yy",},"propertyId":{"name":"text","path":"objects/par_DemoButton/par_DemoButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"VOL -1",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_VolumeButton","path":"objects/obj_VolumeButton/obj_VolumeButton.yy",},"propertyId":{"name":"amount","path":"objects/obj_VolumeButton/obj_VolumeButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-1",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":2.0,"x":64.0,"y":512.0,},
+        {"$GMRInstance":"v1","%Name":"inst_200224EA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_200224EA","objectId":{"name":"obj_VolumeButton","path":"objects/obj_VolumeButton/obj_VolumeButton.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_DemoButton","path":"objects/par_DemoButton/par_DemoButton.yy",},"propertyId":{"name":"text","path":"objects/par_DemoButton/par_DemoButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"VOL +1",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_VolumeButton","path":"objects/obj_VolumeButton/obj_VolumeButton.yy",},"propertyId":{"name":"amount","path":"objects/obj_VolumeButton/obj_VolumeButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":2.0,"x":224.0,"y":512.0,},
+        {"$GMRInstance":"v1","%Name":"inst_597F9CB4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_597F9CB4","objectId":{"name":"obj_MuteButton","path":"objects/obj_MuteButton/obj_MuteButton.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_DemoButton","path":"objects/par_DemoButton/par_DemoButton.yy",},"propertyId":{"name":"text","path":"objects/par_DemoButton/par_DemoButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Toggle BGM",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":9.0,"scaleY":2.0,"x":64.0,"y":608.0,},
+      ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+  ],
+  "name":"rm_Demo",
+  "parent":{
+    "name":"Demo",
+    "path":"folders/Demo.yy",
+  },
+  "parentRoom":null,
+  "physicsSettings":{
+    "inheritPhysicsSettings":false,
+    "PhysicsWorld":false,
+    "PhysicsWorldGravityX":0.0,
+    "PhysicsWorldGravityY":10.0,
+    "PhysicsWorldPixToMetres":0.1,
+  },
+  "resourceType":"GMRoom",
+  "resourceVersion":"2.0",
+  "roomSettings":{
+    "Height":720,
+    "inheritRoomSettings":false,
+    "persistent":false,
+    "Width":1280,
+  },
+  "sequenceId":null,
+  "views":[
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+  ],
+  "viewSettings":{
+    "clearDisplayBuffer":true,
+    "clearViewBackground":false,
+    "enableViews":false,
+    "inheritViewSettings":false,
+  },
+  "volume":1.0,
+}
