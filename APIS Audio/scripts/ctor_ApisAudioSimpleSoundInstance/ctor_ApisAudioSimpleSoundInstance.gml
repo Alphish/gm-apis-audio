@@ -2,6 +2,10 @@ function ApisAudioSimpleSoundInstance(_definition, _audio) : ApisAudioSoundInsta
     audio_instance = _audio;
     original_gain = audio_sound_get_gain(audio_instance);
     
+    static is_playing = function() {
+        return audio_is_playing(audio_instance);
+    }
+    
     static modify = function(_settings) {
         // do nothing
     }
