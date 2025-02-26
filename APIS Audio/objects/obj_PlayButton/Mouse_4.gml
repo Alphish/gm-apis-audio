@@ -1,1 +1,1 @@
-apis_audio_play_on("bgm", bgm);
+apis_audio_play_on(channel, sound);
