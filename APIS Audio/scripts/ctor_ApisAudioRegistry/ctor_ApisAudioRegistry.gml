@@ -1,5 +1,7 @@
 function ApisAudioRegistry() constructor {
+    channels = [];
     channels_by_identifier = {};
+    
     sounds_by_identifier = {};
     sounds_by_asset = ds_map_create();
     auto_register = undefined;
@@ -10,6 +12,9 @@ function ApisAudioRegistry() constructor {
     }
     
     static register_channel_identifier = function(_channel, _identifier) {
+        if (!array_contains(channels, _channel))
+            array_push(channels, _channel);
+        
         var _key = string_lower(_identifier);
         if (struct_exists(channels_by_identifier, _key))
             throw ApisAudioException.duplicate_channel_identifier(_channel);
