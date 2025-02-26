@@ -1,1 +1,1 @@
-apis_audio_change_volume("bgm", amount);
+apis_audio_change_volume(channel, amount);

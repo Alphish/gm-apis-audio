@@ -1,1 +1,1 @@
-apis_audio_toggle_mute("bgm");
+apis_audio_toggle_mute(channel);
