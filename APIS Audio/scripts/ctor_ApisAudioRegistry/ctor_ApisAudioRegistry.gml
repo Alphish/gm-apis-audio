@@ -63,19 +63,19 @@ function ApisAudioRegistry() constructor {
         if (is_instanceof(_sound, ApisAudioSoundDefinition))
             return _sound;
         
-        if (audio_exists(_sound)) {
-            var _resolved = sounds_by_asset[? _sound];
-            if (is_undefined(_resolved))
-                _resolved = auto_register.register_asset(_sound);
-            
-            return _resolved;
-        }
-        
         if (is_string(_sound)) {
             var _key = string_lower(_sound);
             var _resolved = sounds_by_identifier[$ _key];
             if (is_undefined(_resolved))
                 throw ApisAudioException.unknown_sound_definition(_sound);
+            
+            return _resolved;
+        }
+        
+        if (audio_exists(_sound)) {
+            var _resolved = sounds_by_asset[? _sound];
+            if (is_undefined(_resolved))
+                _resolved = auto_register.register_asset(_sound);
             
             return _resolved;
         }
