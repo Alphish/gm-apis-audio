@@ -45,6 +45,7 @@
     {"id":{"name":"ctor_ApisAudioSingleLoopChannel","path":"scripts/ctor_ApisAudioSingleLoopChannel/ctor_ApisAudioSingleLoopChannel.yy",},},
     {"id":{"name":"ctor_ApisAudioSoundDefinition","path":"scripts/ctor_ApisAudioSoundDefinition/ctor_ApisAudioSoundDefinition.yy",},},
     {"id":{"name":"ctor_ApisAudioSoundInstance","path":"scripts/ctor_ApisAudioSoundInstance/ctor_ApisAudioSoundInstance.yy",},},
+    {"id":{"name":"ctor_ApisAudioVariableSoundDefinition","path":"scripts/ctor_ApisAudioVariableSoundDefinition/ctor_ApisAudioVariableSoundDefinition.yy",},},
     {"id":{"name":"funcs_ApisAudio","path":"scripts/funcs_ApisAudio/funcs_ApisAudio.yy",},},
     {"id":{"name":"bgm_Test1","path":"sounds/bgm_Test1/bgm_Test1.yy",},},
     {"id":{"name":"bgm_Test2","path":"sounds/bgm_Test2/bgm_Test2.yy",},},

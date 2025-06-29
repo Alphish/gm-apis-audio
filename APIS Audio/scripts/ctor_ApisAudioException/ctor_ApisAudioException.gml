@@ -32,6 +32,13 @@ ApisAudioException.method_not_implemented = function(_caller, _method) {
         );
 }
 
+ApisAudioException.method_not_supported = function(_caller, _method) {
+    return new ApisAudioException(
+        $"apis_audio_method_not_implemented",
+        $"{instanceof(_caller)} does not support {_method} method."
+        );
+}
+
 ApisAudioException.invalid_channel_identifier = function(_identifier) {
     return new ApisAudioException(
         $"apis_audio_invalid_channel_identifier",
